@@ -35,10 +35,10 @@ void resize(int*& store, int& size, int& capacity, int newCapacity, int& resize_
 
     // Displays the growth and shrinkage of the array.
     if (capacity > old_Capacity) {
-        std::cout << "[Resize] Array GREW from capacity " << old_Capacity
+        std::cout << "[Resize] Array increased from capacity " << old_Capacity
                   << " to " << capacity << ".\n";
     } else if (capacity < old_Capacity) {
-        std::cout << "[Resize] Array SHRANK from capacity " << old_Capacity
+        std::cout << "[Resize] Array decreased from capacity " << old_Capacity
                   << " to " << capacity << ".\n";
     }
 }
